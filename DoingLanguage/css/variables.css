@@ -1,0 +1,187 @@
+/* ==========================================================================
+   DoingLanguage — Design System Tokens
+   All visual properties derive from these custom properties.
+   ========================================================================== */
+
+:root {
+  /* ---- Colour Palette (Light) ---- */
+  --dl-color-primary:        #3B82F6;
+  --dl-color-primary-hover:  #2563EB;
+  --dl-color-primary-light:  #DBEAFE;
+  --dl-color-primary-dark:   #1D4ED8;
+
+  --dl-color-success:        #10B981;
+  --dl-color-success-hover:  #059669;
+  --dl-color-success-light:  #D1FAE5;
+
+  --dl-color-accent:         #F59E0B;
+  --dl-color-accent-hover:   #D97706;
+  --dl-color-accent-light:   #FEF3C7;
+
+  --dl-color-error:          #EF4444;
+  --dl-color-error-hover:    #DC2626;
+  --dl-color-error-light:    #FEE2E2;
+
+  --dl-color-bg:             #F8FAFC;
+  --dl-color-surface:        #FFFFFF;
+  --dl-color-surface-hover:  #F1F5F9;
+  --dl-color-surface-active: #E2E8F0;
+  --dl-color-border:         #E2E8F0;
+
+  --dl-color-text:           #1E293B;
+  --dl-color-text-muted:     #64748B;
+  --dl-color-text-inverse:   #FFFFFF;
+
+  /* Status colours (for progress indicators) */
+  --dl-color-status-not-started: #CBD5E1;
+  --dl-color-status-in-progress: #3B82F6;
+  --dl-color-status-proficient:  #10B981;
+  --dl-color-status-mastered:    #F59E0B;
+
+  /* ---- Typography ---- */
+  --dl-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                    'Helvetica Neue', Arial, sans-serif;
+
+  /* Base sizes — these shift when font-size class changes */
+  --dl-font-size-xs:   0.75rem;   /* 12px */
+  --dl-font-size-sm:   0.875rem;  /* 14px */
+  --dl-font-size-base: 1.125rem;  /* 18px — larger default for accessibility */
+  --dl-font-size-lg:   1.5rem;    /* 24px */
+  --dl-font-size-xl:   2rem;      /* 32px */
+  --dl-font-size-2xl:  3rem;      /* 48px */
+  --dl-font-size-3xl:  4rem;      /* 64px */
+
+  --dl-font-weight-normal: 400;
+  --dl-font-weight-medium: 500;
+  --dl-font-weight-semibold: 600;
+  --dl-font-weight-bold:   700;
+
+  --dl-line-height:      1.6;
+  --dl-line-height-tight: 1.2;
+
+  /* ---- Spacing Scale ---- */
+  --dl-space-1:  0.25rem;  /* 4px  */
+  --dl-space-2:  0.5rem;   /* 8px  */
+  --dl-space-3:  0.75rem;  /* 12px */
+  --dl-space-4:  1rem;     /* 16px */
+  --dl-space-5:  1.5rem;   /* 24px */
+  --dl-space-6:  2rem;     /* 32px */
+  --dl-space-8:  3rem;     /* 48px */
+  --dl-space-10: 4rem;     /* 64px */
+  --dl-space-12: 6rem;     /* 96px */
+
+  /* ---- Border Radius ---- */
+  --dl-radius-sm:   0.5rem;   /* 8px  */
+  --dl-radius-md:   0.75rem;  /* 12px */
+  --dl-radius-lg:   1rem;     /* 16px */
+  --dl-radius-xl:   1.5rem;   /* 24px */
+  --dl-radius-pill:  9999px;
+
+  /* ---- Shadows ---- */
+  --dl-shadow-sm:  0 1px 2px rgba(0, 0, 0, 0.05);
+  --dl-shadow-md:  0 4px 6px -1px rgba(0, 0, 0, 0.07),
+                   0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --dl-shadow-lg:  0 10px 15px -3px rgba(0, 0, 0, 0.1),
+                   0 4px 6px -4px rgba(0, 0, 0, 0.05);
+  --dl-shadow-focus: 0 0 0 3px rgba(59, 130, 246, 0.4);
+
+  /* ---- Transitions ---- */
+  --dl-transition-fast:   150ms ease;
+  --dl-transition:        200ms ease;
+  --dl-transition-slow:   300ms ease;
+
+  /* ---- Layout ---- */
+  --dl-sidebar-width:     280px;
+  --dl-header-height:     4rem;
+  --dl-content-max-width: 56rem;   /* ~900px */
+
+  /* ---- Exercise-specific ---- */
+  --dl-display-char-size: 6rem;
+  --dl-touch-target-min:  3rem;     /* 48px min touch target */
+}
+
+/* ==========================================================================
+   Font Size Presets — applied as class on <body>
+   ========================================================================== */
+body.font-large {
+  --dl-font-size-xs:   0.875rem;
+  --dl-font-size-sm:   1rem;
+  --dl-font-size-base: 1.375rem;
+  --dl-font-size-lg:   1.75rem;
+  --dl-font-size-xl:   2.5rem;
+  --dl-font-size-2xl:  3.5rem;
+  --dl-font-size-3xl:  5rem;
+  --dl-display-char-size: 8rem;
+  --dl-touch-target-min: 3.5rem;
+}
+
+body.font-xlarge {
+  --dl-font-size-xs:   1rem;
+  --dl-font-size-sm:   1.125rem;
+  --dl-font-size-base: 1.625rem;
+  --dl-font-size-lg:   2.25rem;
+  --dl-font-size-xl:   3rem;
+  --dl-font-size-2xl:  4rem;
+  --dl-font-size-3xl:  6rem;
+  --dl-display-char-size: 10rem;
+  --dl-touch-target-min: 4rem;
+}
+
+/* ==========================================================================
+   Dark Theme — triggered by system preference or manual toggle
+   ========================================================================== */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --dl-color-bg:             #0F172A;
+    --dl-color-surface:        #1E293B;
+    --dl-color-surface-hover:  #334155;
+    --dl-color-surface-active: #475569;
+    --dl-color-border:         #334155;
+
+    --dl-color-text:           #F1F5F9;
+    --dl-color-text-muted:     #94A3B8;
+
+    --dl-color-primary-light:  #1E3A5F;
+    --dl-color-success-light:  #064E3B;
+    --dl-color-accent-light:   #78350F;
+    --dl-color-error-light:    #7F1D1D;
+
+    --dl-shadow-sm:  0 1px 2px rgba(0, 0, 0, 0.3);
+    --dl-shadow-md:  0 4px 6px rgba(0, 0, 0, 0.4);
+    --dl-shadow-lg:  0 10px 15px rgba(0, 0, 0, 0.5);
+    --dl-shadow-focus: 0 0 0 3px rgba(96, 165, 250, 0.5);
+  }
+}
+
+/* Manual dark mode override */
+[data-theme="dark"] {
+  --dl-color-bg:             #0F172A;
+  --dl-color-surface:        #1E293B;
+  --dl-color-surface-hover:  #334155;
+  --dl-color-surface-active: #475569;
+  --dl-color-border:         #334155;
+
+  --dl-color-text:           #F1F5F9;
+  --dl-color-text-muted:     #94A3B8;
+
+  --dl-color-primary-light:  #1E3A5F;
+  --dl-color-success-light:  #064E3B;
+  --dl-color-accent-light:   #78350F;
+  --dl-color-error-light:    #7F1D1D;
+
+  --dl-shadow-sm:  0 1px 2px rgba(0, 0, 0, 0.3);
+  --dl-shadow-md:  0 4px 6px rgba(0, 0, 0, 0.4);
+  --dl-shadow-lg:  0 10px 15px rgba(0, 0, 0, 0.5);
+  --dl-shadow-focus: 0 0 0 3px rgba(96, 165, 250, 0.5);
+}
+
+/* ==========================================================================
+   Motion Preferences
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dl-transition-fast: 0ms;
+    --dl-transition:      0ms;
+    --dl-transition-slow: 0ms;
+  }
+}

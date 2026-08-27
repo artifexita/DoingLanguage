@@ -1,0 +1,1243 @@
+[
+  {
+    "id": "c_b",
+    "ipa": "/b/",
+    "type": "consonant",
+    "subtype": "plosive",
+    "voiced": true,
+    "graphemes": [
+      "b",
+      "bb"
+    ],
+    "examples": {
+      "initial": {
+        "word": "ball",
+        "highlight": "b"
+      },
+      "medial": {
+        "word": "rabbit",
+        "highlight": "bb"
+      },
+      "final": {
+        "word": "cab",
+        "highlight": "b"
+      }
+    },
+    "mouthPosition": "Press both lips together, then release with voice",
+    "similarTo": "c_p",
+    "difficulty": 1
+  },
+  {
+    "id": "c_d",
+    "ipa": "/d/",
+    "type": "consonant",
+    "subtype": "plosive",
+    "voiced": true,
+    "graphemes": [
+      "d",
+      "dd"
+    ],
+    "examples": {
+      "initial": {
+        "word": "dog",
+        "highlight": "d"
+      },
+      "medial": {
+        "word": "ladder",
+        "highlight": "dd"
+      },
+      "final": {
+        "word": "bed",
+        "highlight": "d"
+      }
+    },
+    "mouthPosition": "Tap the tip of your tongue behind your top teeth and release with voice",
+    "similarTo": "c_t",
+    "difficulty": 1
+  },
+  {
+    "id": "c_f",
+    "ipa": "/f/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": false,
+    "graphemes": [
+      "f",
+      "ff",
+      "ph"
+    ],
+    "examples": {
+      "initial": {
+        "word": "fish",
+        "highlight": "f"
+      },
+      "medial": {
+        "word": "coffee",
+        "highlight": "ff"
+      },
+      "final": {
+        "word": "leaf",
+        "highlight": "f"
+      }
+    },
+    "mouthPosition": "Rest top teeth gently on bottom lip and blow air out",
+    "similarTo": "c_v",
+    "difficulty": 2
+  },
+  {
+    "id": "c_g",
+    "ipa": "/\u0261/",
+    "type": "consonant",
+    "subtype": "plosive",
+    "voiced": true,
+    "graphemes": [
+      "g",
+      "gg"
+    ],
+    "examples": {
+      "initial": {
+        "word": "goat",
+        "highlight": "g"
+      },
+      "medial": {
+        "word": "digger",
+        "highlight": "gg"
+      },
+      "final": {
+        "word": "bag",
+        "highlight": "g"
+      }
+    },
+    "mouthPosition": "Raise the back of your tongue to the roof of your mouth, release with voice",
+    "similarTo": "c_k",
+    "difficulty": 2
+  },
+  {
+    "id": "c_h",
+    "ipa": "/h/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": false,
+    "graphemes": [
+      "h"
+    ],
+    "examples": {
+      "initial": {
+        "word": "hat",
+        "highlight": "h"
+      },
+      "medial": {
+        "word": "ahead",
+        "highlight": "h"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Open your mouth and breathe out sharply",
+    "similarTo": "",
+    "difficulty": 1
+  },
+  {
+    "id": "c_dj",
+    "ipa": "/d\u0292/",
+    "type": "consonant",
+    "subtype": "affricate",
+    "voiced": true,
+    "graphemes": [
+      "j",
+      "g",
+      "dge"
+    ],
+    "examples": {
+      "initial": {
+        "word": "jam",
+        "highlight": "j"
+      },
+      "medial": {
+        "word": "magic",
+        "highlight": "g"
+      },
+      "final": {
+        "word": "bridge",
+        "highlight": "dge"
+      }
+    },
+    "mouthPosition": "Push lips forward, tap tongue behind teeth and release with voice",
+    "similarTo": "c_ch",
+    "difficulty": 3
+  },
+  {
+    "id": "c_k",
+    "ipa": "/k/",
+    "type": "consonant",
+    "subtype": "plosive",
+    "voiced": false,
+    "graphemes": [
+      "k",
+      "c",
+      "ck"
+    ],
+    "examples": {
+      "initial": {
+        "word": "cat",
+        "highlight": "c"
+      },
+      "medial": {
+        "word": "pocket",
+        "highlight": "ck"
+      },
+      "final": {
+        "word": "book",
+        "highlight": "k"
+      }
+    },
+    "mouthPosition": "Raise the back of your tongue to the roof of your mouth and release a puff of air",
+    "similarTo": "c_g",
+    "difficulty": 2
+  },
+  {
+    "id": "c_l",
+    "ipa": "/l/",
+    "type": "consonant",
+    "subtype": "approximant",
+    "voiced": true,
+    "graphemes": [
+      "l",
+      "ll"
+    ],
+    "examples": {
+      "initial": {
+        "word": "lion",
+        "highlight": "l"
+      },
+      "medial": {
+        "word": "pillow",
+        "highlight": "ll"
+      },
+      "final": {
+        "word": "ball",
+        "highlight": "ll"
+      }
+    },
+    "mouthPosition": "Place the tip of your tongue behind your top teeth and use voice",
+    "similarTo": "c_r",
+    "difficulty": 2
+  },
+  {
+    "id": "c_m",
+    "ipa": "/m/",
+    "type": "consonant",
+    "subtype": "nasal",
+    "voiced": true,
+    "graphemes": [
+      "m",
+      "mm"
+    ],
+    "examples": {
+      "initial": {
+        "word": "monkey",
+        "highlight": "m"
+      },
+      "medial": {
+        "word": "hammer",
+        "highlight": "mm"
+      },
+      "final": {
+        "word": "drum",
+        "highlight": "m"
+      }
+    },
+    "mouthPosition": "Press both lips together and hum gently",
+    "similarTo": "c_n",
+    "difficulty": 1
+  },
+  {
+    "id": "c_n",
+    "ipa": "/n/",
+    "type": "consonant",
+    "subtype": "nasal",
+    "voiced": true,
+    "graphemes": [
+      "n",
+      "nn"
+    ],
+    "examples": {
+      "initial": {
+        "word": "nest",
+        "highlight": "n"
+      },
+      "medial": {
+        "word": "bunny",
+        "highlight": "nn"
+      },
+      "final": {
+        "word": "sun",
+        "highlight": "n"
+      }
+    },
+    "mouthPosition": "Press the tip of your tongue behind your top teeth and hum",
+    "similarTo": "c_m",
+    "difficulty": 1
+  },
+  {
+    "id": "c_ng",
+    "ipa": "/\u014b/",
+    "type": "consonant",
+    "subtype": "nasal",
+    "voiced": true,
+    "graphemes": [
+      "ng",
+      "n"
+    ],
+    "examples": {
+      "initial": {
+        "word": "",
+        "highlight": ""
+      },
+      "medial": {
+        "word": "singer",
+        "highlight": "ng"
+      },
+      "final": {
+        "word": "ring",
+        "highlight": "ng"
+      }
+    },
+    "mouthPosition": "Raise the back of your tongue and hum gently through your nose",
+    "similarTo": "c_n",
+    "difficulty": 3
+  },
+  {
+    "id": "c_p",
+    "ipa": "/p/",
+    "type": "consonant",
+    "subtype": "plosive",
+    "voiced": false,
+    "graphemes": [
+      "p",
+      "pp"
+    ],
+    "examples": {
+      "initial": {
+        "word": "pig",
+        "highlight": "p"
+      },
+      "medial": {
+        "word": "apple",
+        "highlight": "pp"
+      },
+      "final": {
+        "word": "cup",
+        "highlight": "p"
+      }
+    },
+    "mouthPosition": "Press both lips together, then release with a puff of air",
+    "similarTo": "c_b",
+    "difficulty": 1
+  },
+  {
+    "id": "c_r",
+    "ipa": "/r/",
+    "type": "consonant",
+    "subtype": "approximant",
+    "voiced": true,
+    "graphemes": [
+      "r",
+      "rr"
+    ],
+    "examples": {
+      "initial": {
+        "word": "rabbit",
+        "highlight": "r"
+      },
+      "medial": {
+        "word": "carrot",
+        "highlight": "rr"
+      },
+      "final": {
+        "word": "car",
+        "highlight": "r"
+      }
+    },
+    "mouthPosition": "Curl tongue slightly back, do not touch the roof of your mouth, and use voice",
+    "similarTo": "c_l",
+    "difficulty": 3
+  },
+  {
+    "id": "c_s",
+    "ipa": "/s/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": false,
+    "graphemes": [
+      "s",
+      "ss",
+      "c"
+    ],
+    "examples": {
+      "initial": {
+        "word": "sun",
+        "highlight": "s"
+      },
+      "medial": {
+        "word": "glasses",
+        "highlight": "ss"
+      },
+      "final": {
+        "word": "bus",
+        "highlight": "s"
+      }
+    },
+    "mouthPosition": "Keep teeth close together and hiss air through the front",
+    "similarTo": "c_z",
+    "difficulty": 2
+  },
+  {
+    "id": "c_sh",
+    "ipa": "/\u0283/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": false,
+    "graphemes": [
+      "sh",
+      "ti",
+      "ci"
+    ],
+    "examples": {
+      "initial": {
+        "word": "shoe",
+        "highlight": "sh"
+      },
+      "medial": {
+        "word": "station",
+        "highlight": "ti"
+      },
+      "final": {
+        "word": "fish",
+        "highlight": "sh"
+      }
+    },
+    "mouthPosition": "Push lips forward, keep teeth slightly apart, and blow a steady stream of air",
+    "similarTo": "c_zh",
+    "difficulty": 3
+  },
+  {
+    "id": "c_t",
+    "ipa": "/t/",
+    "type": "consonant",
+    "subtype": "plosive",
+    "voiced": false,
+    "graphemes": [
+      "t",
+      "tt"
+    ],
+    "examples": {
+      "initial": {
+        "word": "tiger",
+        "highlight": "t"
+      },
+      "medial": {
+        "word": "button",
+        "highlight": "tt"
+      },
+      "final": {
+        "word": "cat",
+        "highlight": "t"
+      }
+    },
+    "mouthPosition": "Tap the tip of your tongue behind your top teeth and release a puff of air",
+    "similarTo": "c_d",
+    "difficulty": 1
+  },
+  {
+    "id": "c_ch",
+    "ipa": "/t\u0283/",
+    "type": "consonant",
+    "subtype": "affricate",
+    "voiced": false,
+    "graphemes": [
+      "ch",
+      "tch"
+    ],
+    "examples": {
+      "initial": {
+        "word": "chair",
+        "highlight": "ch"
+      },
+      "medial": {
+        "word": "kitchen",
+        "highlight": "tch"
+      },
+      "final": {
+        "word": "watch",
+        "highlight": "tch"
+      }
+    },
+    "mouthPosition": "Push lips forward, tap tongue behind teeth and release a sharp puff of air",
+    "similarTo": "c_dj",
+    "difficulty": 3
+  },
+  {
+    "id": "c_th_unvoiced",
+    "ipa": "/\u03b8/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": false,
+    "graphemes": [
+      "th"
+    ],
+    "examples": {
+      "initial": {
+        "word": "thumb",
+        "highlight": "th"
+      },
+      "medial": {
+        "word": "toothbrush",
+        "highlight": "th"
+      },
+      "final": {
+        "word": "bath",
+        "highlight": "th"
+      }
+    },
+    "mouthPosition": "Place tip of tongue lightly between front teeth and blow air",
+    "similarTo": "c_th_voiced",
+    "difficulty": 4
+  },
+  {
+    "id": "c_th_voiced",
+    "ipa": "/\u00f0/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": true,
+    "graphemes": [
+      "th"
+    ],
+    "examples": {
+      "initial": {
+        "word": "this",
+        "highlight": "th"
+      },
+      "medial": {
+        "word": "feather",
+        "highlight": "th"
+      },
+      "final": {
+        "word": "breathe",
+        "highlight": "th"
+      }
+    },
+    "mouthPosition": "Place tip of tongue lightly between front teeth and use voice",
+    "similarTo": "c_th_unvoiced",
+    "difficulty": 4
+  },
+  {
+    "id": "c_v",
+    "ipa": "/v/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": true,
+    "graphemes": [
+      "v",
+      "ve"
+    ],
+    "examples": {
+      "initial": {
+        "word": "van",
+        "highlight": "v"
+      },
+      "medial": {
+        "word": "river",
+        "highlight": "v"
+      },
+      "final": {
+        "word": "five",
+        "highlight": "ve"
+      }
+    },
+    "mouthPosition": "Rest top teeth gently on bottom lip and use voice",
+    "similarTo": "c_f",
+    "difficulty": 2
+  },
+  {
+    "id": "c_w",
+    "ipa": "/w/",
+    "type": "consonant",
+    "subtype": "approximant",
+    "voiced": true,
+    "graphemes": [
+      "w",
+      "wh"
+    ],
+    "examples": {
+      "initial": {
+        "word": "web",
+        "highlight": "w"
+      },
+      "medial": {
+        "word": "flower",
+        "highlight": "w"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Make your lips round and use voice",
+    "similarTo": "",
+    "difficulty": 2
+  },
+  {
+    "id": "c_j",
+    "ipa": "/j/",
+    "type": "consonant",
+    "subtype": "approximant",
+    "voiced": true,
+    "graphemes": [
+      "y"
+    ],
+    "examples": {
+      "initial": {
+        "word": "yellow",
+        "highlight": "y"
+      },
+      "medial": {
+        "word": "onion",
+        "highlight": "i"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Raise the middle of your tongue to the roof of your mouth and use voice",
+    "similarTo": "",
+    "difficulty": 3
+  },
+  {
+    "id": "c_z",
+    "ipa": "/z/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": true,
+    "graphemes": [
+      "z",
+      "zz",
+      "s"
+    ],
+    "examples": {
+      "initial": {
+        "word": "zebra",
+        "highlight": "z"
+      },
+      "medial": {
+        "word": "puzzle",
+        "highlight": "zz"
+      },
+      "final": {
+        "word": "buzz",
+        "highlight": "zz"
+      }
+    },
+    "mouthPosition": "Keep teeth close together and buzz with voice",
+    "similarTo": "c_s",
+    "difficulty": 2
+  },
+  {
+    "id": "c_zh",
+    "ipa": "/\u0292/",
+    "type": "consonant",
+    "subtype": "fricative",
+    "voiced": true,
+    "graphemes": [
+      "s",
+      "si",
+      "ge"
+    ],
+    "examples": {
+      "initial": {
+        "word": "genre",
+        "highlight": "g"
+      },
+      "medial": {
+        "word": "television",
+        "highlight": "si"
+      },
+      "final": {
+        "word": "beige",
+        "highlight": "ge"
+      }
+    },
+    "mouthPosition": "Push lips forward, keep teeth slightly apart, and use voice",
+    "similarTo": "c_sh",
+    "difficulty": 5
+  },
+  {
+    "id": "v_a_short",
+    "ipa": "/\u00e6/",
+    "type": "vowel",
+    "subtype": "short",
+    "voiced": true,
+    "graphemes": [
+      "a"
+    ],
+    "examples": {
+      "initial": {
+        "word": "apple",
+        "highlight": "a"
+      },
+      "medial": {
+        "word": "cat",
+        "highlight": "a"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Open mouth wide, rest tongue flat at the bottom",
+    "similarTo": "",
+    "difficulty": 1
+  },
+  {
+    "id": "v_e_short",
+    "ipa": "/\u025b/",
+    "type": "vowel",
+    "subtype": "short",
+    "voiced": true,
+    "graphemes": [
+      "e",
+      "ea"
+    ],
+    "examples": {
+      "initial": {
+        "word": "elephant",
+        "highlight": "e"
+      },
+      "medial": {
+        "word": "bed",
+        "highlight": "e"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Open mouth slightly, drop jaw slightly, relax lips",
+    "similarTo": "",
+    "difficulty": 1
+  },
+  {
+    "id": "v_i_short",
+    "ipa": "/\u026a/",
+    "type": "vowel",
+    "subtype": "short",
+    "voiced": true,
+    "graphemes": [
+      "i"
+    ],
+    "examples": {
+      "initial": {
+        "word": "igloo",
+        "highlight": "i"
+      },
+      "medial": {
+        "word": "pig",
+        "highlight": "i"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Relax lips, raise tongue slightly toward the roof of the mouth",
+    "similarTo": "",
+    "difficulty": 1
+  },
+  {
+    "id": "v_o_short",
+    "ipa": "/\u0252/",
+    "type": "vowel",
+    "subtype": "short",
+    "voiced": true,
+    "graphemes": [
+      "o"
+    ],
+    "examples": {
+      "initial": {
+        "word": "octopus",
+        "highlight": "o"
+      },
+      "medial": {
+        "word": "dog",
+        "highlight": "o"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Make lips very round and open jaw wide",
+    "similarTo": "",
+    "difficulty": 1
+  },
+  {
+    "id": "v_u_short",
+    "ipa": "/\u028c/",
+    "type": "vowel",
+    "subtype": "short",
+    "voiced": true,
+    "graphemes": [
+      "u",
+      "o"
+    ],
+    "examples": {
+      "initial": {
+        "word": "umbrella",
+        "highlight": "u"
+      },
+      "medial": {
+        "word": "sun",
+        "highlight": "u"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Relax lips, open mouth slightly, tongue relaxed",
+    "similarTo": "",
+    "difficulty": 1
+  },
+  {
+    "id": "v_oo_short",
+    "ipa": "/\u028a/",
+    "type": "vowel",
+    "subtype": "short",
+    "voiced": true,
+    "graphemes": [
+      "oo",
+      "u"
+    ],
+    "examples": {
+      "initial": {
+        "word": "",
+        "highlight": ""
+      },
+      "medial": {
+        "word": "book",
+        "highlight": "oo"
+      },
+      "final": {
+        "word": "",
+        "highlight": ""
+      }
+    },
+    "mouthPosition": "Round lips slightly and push them forward a bit",
+    "similarTo": "",
+    "difficulty": 2
+  },
+  {
+    "id": "v_schwa",
+    "ipa": "/\u0259/",
+    "type": "vowel",
+    "subtype": "short",
+    "voiced": true,
+    "graphemes": [
+      "a",
+      "e",
+      "o",
+      "u"
+    ],
+    "examples": {
+      "initial": {
+        "word": "away",
+        "highlight": "a"
+      },
+      "medial": {
+        "word": "carrot",
+        "highlight": "o"
+      },
+      "final": {
+        "word": "sofa",
+        "highlight": "a"
+      }
+    },
+    "mouthPosition": "Completely relax mouth and tongue, make a very short sound",
+    "similarTo": "",
+    "difficulty": 3
+  },
+  {
+    "id": "v_ee_long",
+    "ipa": "/i\u02d0/",
+    "type": "vowel",
+    "subtype": "long",
+    "voiced": true,
+    "graphemes": [
+      "ee",
+      "ea",
+      "y"
+    ],
+    "examples": {
+      "initial": {
+        "word": "eat",
+        "highlight": "ea"
+      },
+      "medial": {
+        "word": "sheep",
+        "highlight": "ee"
+      },
+      "final": {
+        "word": "tree",
+        "highlight": "ee"
+      }
+    },
+    "mouthPosition": "Stretch lips wide like a smile",
+    "similarTo": "",
+    "difficulty": 1
+  },
+  {
+    "id": "v_ar_long",
+    "ipa": "/\u0251\u02d0/",
+    "type": "vowel",
+    "subtype": "long",
+    "voiced": true,
+    "graphemes": [
+      "ar",
+      "a"
+    ],
+    "examples": {
+      "initial": {
+        "word": "arm",
+        "highlight": "ar"
+      },
+      "medial": {
+        "word": "car",
+        "highlight": "ar"
+      },
+      "final": {
+        "word": "star",
+        "highlight": "ar"
+      }
+    },
+    "mouthPosition": "Open mouth very wide and relax tongue",
+    "similarTo": "",
+    "difficulty": 1
+  },
+  {
+    "id": "v_or_long",
+    "ipa": "/\u0254\u02d0/",
+    "type": "vowel",
+    "subtype": "long",
+    "voiced": true,
+    "graphemes": [
+      "or",
+      "aw",
+      "au"
+    ],
+    "examples": {
+      "initial": {
+        "word": "autumn",
+        "highlight": "au"
+      },
+      "medial": {
+        "word": "fork",
+        "highlight": "or"
+      },
+      "final": {
+        "word": "saw",
+        "highlight": "aw"
+      }
+    },
+    "mouthPosition": "Round lips and drop jaw",
+    "similarTo": "",
+    "difficulty": 2
+  },
+  {
+    "id": "v_oo_long",
+    "ipa": "/u\u02d0/",
+    "type": "vowel",
+    "subtype": "long",
+    "voiced": true,
+    "graphemes": [
+      "oo",
+      "u_e",
+      "ew"
+    ],
+    "examples": {
+      "initial": {
+        "word": "ooze",
+        "highlight": "oo"
+      },
+      "medial": {
+        "word": "moon",
+        "highlight": "oo"
+      },
+      "final": {
+        "word": "glue",
+        "highlight": "ue"
+      }
+    },
+    "mouthPosition": "Make lips into a tight circle and push them forward",
+    "similarTo": "",
+    "difficulty": 2
+  },
+  {
+    "id": "v_er_long",
+    "ipa": "/\u025c\u02d0/",
+    "type": "vowel",
+    "subtype": "long",
+    "voiced": true,
+    "graphemes": [
+      "ir",
+      "ur",
+      "er"
+    ],
+    "examples": {
+      "initial": {
+        "word": "earth",
+        "highlight": "ear"
+      },
+      "medial": {
+        "word": "bird",
+        "highlight": "ir"
+      },
+      "final": {
+        "word": "fur",
+        "highlight": "ur"
+      }
+    },
+    "mouthPosition": "Relax lips and keep jaw mostly closed",
+    "similarTo": "",
+    "difficulty": 3
+  },
+  {
+    "id": "v_ay_diph",
+    "ipa": "/e\u026a/",
+    "type": "vowel",
+    "subtype": "diphthong",
+    "voiced": true,
+    "graphemes": [
+      "a_e",
+      "ai",
+      "ay"
+    ],
+    "examples": {
+      "initial": {
+        "word": "ape",
+        "highlight": "a_e"
+      },
+      "medial": {
+        "word": "rain",
+        "highlight": "ai"
+      },
+      "final": {
+        "word": "play",
+        "highlight": "ay"
+      }
+    },
+    "mouthPosition": "Start with jaw slightly dropped, then move lips into a smile",
+    "similarTo": "",
+    "difficulty": 2
+  },
+  {
+    "id": "v_ie_diph",
+    "ipa": "/a\u026a/",
+    "type": "vowel",
+    "subtype": "diphthong",
+    "voiced": true,
+    "graphemes": [
+      "i_e",
+      "igh",
+      "y"
+    ],
+    "examples": {
+      "initial": {
+        "word": "ice",
+        "highlight": "i_e"
+      },
+      "medial": {
+        "word": "bike",
+        "highlight": "i_e"
+      },
+      "final": {
+        "word": "fly",
+        "highlight": "y"
+      }
+    },
+    "mouthPosition": "Start with mouth wide open, then move lips into a smile",
+    "similarTo": "",
+    "difficulty": 2
+  },
+  {
+    "id": "v_oy_diph",
+    "ipa": "/\u0254\u026a/",
+    "type": "vowel",
+    "subtype": "diphthong",
+    "voiced": true,
+    "graphemes": [
+      "oi",
+      "oy"
+    ],
+    "examples": {
+      "initial": {
+        "word": "oil",
+        "highlight": "oi"
+      },
+      "medial": {
+        "word": "coin",
+        "highlight": "oi"
+      },
+      "final": {
+        "word": "boy",
+        "highlight": "oy"
+      }
+    },
+    "mouthPosition": "Start with lips rounded, then move them into a smile",
+    "similarTo": "",
+    "difficulty": 3
+  },
+  {
+    "id": "v_ow_diph",
+    "ipa": "/a\u028a/",
+    "type": "vowel",
+    "subtype": "diphthong",
+    "voiced": true,
+    "graphemes": [
+      "ow",
+      "ou"
+    ],
+    "examples": {
+      "initial": {
+        "word": "out",
+        "highlight": "ou"
+      },
+      "medial": {
+        "word": "mouse",
+        "highlight": "ou"
+      },
+      "final": {
+        "word": "cow",
+        "highlight": "ow"
+      }
+    },
+    "mouthPosition": "Start with mouth wide open, then make a tight circle with lips",
+    "similarTo": "",
+    "difficulty": 3
+  },
+  {
+    "id": "v_oa_diph",
+    "ipa": "/\u0259\u028a/",
+    "type": "vowel",
+    "subtype": "diphthong",
+    "voiced": true,
+    "graphemes": [
+      "o_e",
+      "oa",
+      "ow"
+    ],
+    "examples": {
+      "initial": {
+        "word": "oak",
+        "highlight": "oa"
+      },
+      "medial": {
+        "word": "boat",
+        "highlight": "oa"
+      },
+      "final": {
+        "word": "snow",
+        "highlight": "ow"
+      }
+    },
+    "mouthPosition": "Start relaxed, then make lips into a round circle",
+    "similarTo": "",
+    "difficulty": 2
+  },
+  {
+    "id": "v_ear_diph",
+    "ipa": "/\u026a\u0259/",
+    "type": "vowel",
+    "subtype": "diphthong",
+    "voiced": true,
+    "graphemes": [
+      "ear",
+      "eer"
+    ],
+    "examples": {
+      "initial": {
+        "word": "ear",
+        "highlight": "ear"
+      },
+      "medial": {
+        "word": "beard",
+        "highlight": "ear"
+      },
+      "final": {
+        "word": "deer",
+        "highlight": "eer"
+      }
+    },
+    "mouthPosition": "Start with lips in a smile, then relax completely",
+    "similarTo": "",
+    "difficulty": 4
+  },
+  {
+    "id": "v_air_diph",
+    "ipa": "/e\u0259/",
+    "type": "vowel",
+    "subtype": "diphthong",
+    "voiced": true,
+    "graphemes": [
+      "air",
+      "are"
+    ],
+    "examples": {
+      "initial": {
+        "word": "air",
+        "highlight": "air"
+      },
+      "medial": {
+        "word": "fairy",
+        "highlight": "air"
+      },
+      "final": {
+        "word": "hair",
+        "highlight": "air"
+      }
+    },
+    "mouthPosition": "Start with jaw slightly dropped, then relax completely",
+    "similarTo": "",
+    "difficulty": 4
+  },
+  {
+    "id": "v_ure_diph",
+    "ipa": "/\u028a\u0259/",
+    "type": "vowel",
+    "subtype": "diphthong",
+    "voiced": true,
+    "graphemes": [
+      "ure",
+      "our"
+    ],
+    "examples": {
+      "initial": {
+        "word": "",
+        "highlight": ""
+      },
+      "medial": {
+        "word": "tourist",
+        "highlight": "our"
+      },
+      "final": {
+        "word": "pure",
+        "highlight": "ure"
+      }
+    },
+    "mouthPosition": "Start with lips rounded slightly, then relax completely",
+    "similarTo": "",
+    "difficulty": 4
+  }
+]

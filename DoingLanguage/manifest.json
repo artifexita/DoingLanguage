@@ -1,0 +1,31 @@
+{
+  "name": "DoingLanguage",
+  "short_name": "DoingLanguage",
+  "description": "Progressive speech and language training for Apraxia and Aphasia rehabilitation",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#3B82F6",
+  "orientation": "any",
+  "lang": "en-AU",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🧠</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["education", "health"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/index.html#/dashboard",
+      "description": "View your progress"
+    },
+    {
+      "name": "Settings",
+      "url": "/index.html#/settings",
+      "description": "Adjust speech and display settings"
+    }
+  ]
+}

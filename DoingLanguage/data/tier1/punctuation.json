@@ -1,0 +1,141 @@
+[
+  {
+    "id": "full-stop",
+    "symbol": ".",
+    "name": "full stop",
+    "altNames": [
+      "period",
+      "dot"
+    ],
+    "function": "Marks the end of a statement or sentence",
+    "example": "The cat sat on the mat.",
+    "usageTip": "Place at the end of a sentence that makes a statement.",
+    "difficulty": 1
+  },
+  {
+    "id": "comma",
+    "symbol": ",",
+    "name": "comma",
+    "altNames": [],
+    "function": "Indicates a short pause or separates items in a list",
+    "example": "I bought apples, bananas, and oranges.",
+    "usageTip": "Use to separate clauses or items in a list.",
+    "difficulty": 2
+  },
+  {
+    "id": "question-mark",
+    "symbol": "?",
+    "name": "question mark",
+    "altNames": [],
+    "function": "Marks the end of a question",
+    "example": "What time is it?",
+    "usageTip": "Place at the end of a direct question.",
+    "difficulty": 1
+  },
+  {
+    "id": "exclamation-mark",
+    "symbol": "!",
+    "name": "exclamation mark",
+    "altNames": [
+      "exclamation point"
+    ],
+    "function": "Indicates strong feeling or high volume",
+    "example": "Watch out!",
+    "usageTip": "Use sparingly to show emotion or emphasis.",
+    "difficulty": 1
+  },
+  {
+    "id": "apostrophe",
+    "symbol": "'",
+    "name": "apostrophe",
+    "altNames": [],
+    "function": "Indicates possession or omitted letters",
+    "example": "It's John's book.",
+    "usageTip": "Use for contractions or to show ownership.",
+    "difficulty": 3
+  },
+  {
+    "id": "quotation-marks",
+    "symbol": "\"",
+    "name": "quotation marks",
+    "altNames": [
+      "speech marks",
+      "quotes",
+      "inverted commas"
+    ],
+    "function": "Indicates direct speech or a quotation",
+    "example": "She said, \"Hello!\"",
+    "usageTip": "Use around exact words spoken or quoted.",
+    "difficulty": 3
+  },
+  {
+    "id": "colon",
+    "symbol": ":",
+    "name": "colon",
+    "altNames": [],
+    "function": "Introduces a list, explanation, or quotation",
+    "example": "You need three things: time, effort, and patience.",
+    "usageTip": "Use after a complete sentence to introduce related information.",
+    "difficulty": 4
+  },
+  {
+    "id": "semicolon",
+    "symbol": ";",
+    "name": "semicolon",
+    "altNames": [],
+    "function": "Links closely related independent clauses",
+    "example": "I have a big test tomorrow; I can't go out tonight.",
+    "usageTip": "Use to connect two sentences that are closely related.",
+    "difficulty": 4
+  },
+  {
+    "id": "hyphen",
+    "symbol": "-",
+    "name": "hyphen",
+    "altNames": [
+      "dash"
+    ],
+    "function": "Joins words together",
+    "example": "She is a well-known author.",
+    "usageTip": "Use to link words in compound adjectives or numbers.",
+    "difficulty": 3
+  },
+  {
+    "id": "parentheses",
+    "symbol": "()",
+    "name": "parentheses",
+    "altNames": [
+      "brackets",
+      "round brackets"
+    ],
+    "function": "Encloses extra information",
+    "example": "The conference (held in Sydney) was a success.",
+    "usageTip": "Use to add non-essential information to a sentence.",
+    "difficulty": 3
+  },
+  {
+    "id": "ellipsis",
+    "symbol": "...",
+    "name": "ellipsis",
+    "altNames": [
+      "dot dot dot"
+    ],
+    "function": "Indicates omitted words or a trailing off of thought",
+    "example": "I'm not sure...",
+    "usageTip": "Use to show a pause or incomplete thought.",
+    "difficulty": 3
+  },
+  {
+    "id": "forward-slash",
+    "symbol": "/",
+    "name": "forward slash",
+    "altNames": [
+      "slash",
+      "stroke"
+    ],
+    "function": "Indicates alternatives or fractions",
+    "example": "Please write your name and/or signature.",
+    "usageTip": "Use to mean 'or' or to separate parts of a fraction.",
+    "difficulty": 2
+  }
+]

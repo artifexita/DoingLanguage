@@ -1,0 +1,586 @@
+[
+  {
+    "id": "A",
+    "upper": "A",
+    "lower": "a",
+    "name": "ay",
+    "phonemes": [
+      "/\u00e6/",
+      "/e\u026a/",
+      "/\u0251\u02d0/"
+    ],
+    "primarySound": "/\u00e6/",
+    "exampleWords": [
+      {
+        "word": "apple",
+        "position": "initial",
+        "phoneme": "/\u00e6/"
+      },
+      {
+        "word": "cake",
+        "position": "medial",
+        "phoneme": "/e\u026a/"
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "upper": "B",
+    "lower": "b",
+    "name": "bee",
+    "phonemes": [
+      "/b/"
+    ],
+    "primarySound": "/b/",
+    "exampleWords": [
+      {
+        "word": "ball",
+        "position": "initial",
+        "phoneme": "/b/"
+      },
+      {
+        "word": "rabbit",
+        "position": "medial",
+        "phoneme": "/b/"
+      }
+    ]
+  },
+  {
+    "id": "C",
+    "upper": "C",
+    "lower": "c",
+    "name": "see",
+    "phonemes": [
+      "/k/",
+      "/s/"
+    ],
+    "primarySound": "/k/",
+    "exampleWords": [
+      {
+        "word": "cat",
+        "position": "initial",
+        "phoneme": "/k/"
+      },
+      {
+        "word": "ice",
+        "position": "final",
+        "phoneme": "/s/"
+      }
+    ]
+  },
+  {
+    "id": "D",
+    "upper": "D",
+    "lower": "d",
+    "name": "dee",
+    "phonemes": [
+      "/d/"
+    ],
+    "primarySound": "/d/",
+    "exampleWords": [
+      {
+        "word": "dog",
+        "position": "initial",
+        "phoneme": "/d/"
+      },
+      {
+        "word": "bed",
+        "position": "final",
+        "phoneme": "/d/"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "upper": "E",
+    "lower": "e",
+    "name": "ee",
+    "phonemes": [
+      "/\u025b/",
+      "/i\u02d0/"
+    ],
+    "primarySound": "/\u025b/",
+    "exampleWords": [
+      {
+        "word": "elephant",
+        "position": "initial",
+        "phoneme": "/\u025b/"
+      },
+      {
+        "word": "tree",
+        "position": "final",
+        "phoneme": "/i\u02d0/"
+      }
+    ]
+  },
+  {
+    "id": "F",
+    "upper": "F",
+    "lower": "f",
+    "name": "eff",
+    "phonemes": [
+      "/f/"
+    ],
+    "primarySound": "/f/",
+    "exampleWords": [
+      {
+        "word": "fish",
+        "position": "initial",
+        "phoneme": "/f/"
+      },
+      {
+        "word": "leaf",
+        "position": "final",
+        "phoneme": "/f/"
+      }
+    ]
+  },
+  {
+    "id": "G",
+    "upper": "G",
+    "lower": "g",
+    "name": "jee",
+    "phonemes": [
+      "/\u0261/",
+      "/d\u0292/"
+    ],
+    "primarySound": "/\u0261/",
+    "exampleWords": [
+      {
+        "word": "goat",
+        "position": "initial",
+        "phoneme": "/\u0261/"
+      },
+      {
+        "word": "giraffe",
+        "position": "initial",
+        "phoneme": "/d\u0292/"
+      }
+    ]
+  },
+  {
+    "id": "H",
+    "upper": "H",
+    "lower": "h",
+    "name": "aitch",
+    "phonemes": [
+      "/h/"
+    ],
+    "primarySound": "/h/",
+    "exampleWords": [
+      {
+        "word": "hat",
+        "position": "initial",
+        "phoneme": "/h/"
+      },
+      {
+        "word": "ahead",
+        "position": "medial",
+        "phoneme": "/h/"
+      }
+    ]
+  },
+  {
+    "id": "I",
+    "upper": "I",
+    "lower": "i",
+    "name": "eye",
+    "phonemes": [
+      "/\u026a/",
+      "/a\u026a/"
+    ],
+    "primarySound": "/\u026a/",
+    "exampleWords": [
+      {
+        "word": "igloo",
+        "position": "initial",
+        "phoneme": "/\u026a/"
+      },
+      {
+        "word": "bike",
+        "position": "medial",
+        "phoneme": "/a\u026a/"
+      }
+    ]
+  },
+  {
+    "id": "J",
+    "upper": "J",
+    "lower": "j",
+    "name": "jay",
+    "phonemes": [
+      "/d\u0292/"
+    ],
+    "primarySound": "/d\u0292/",
+    "exampleWords": [
+      {
+        "word": "jam",
+        "position": "initial",
+        "phoneme": "/d\u0292/"
+      },
+      {
+        "word": "jump",
+        "position": "initial",
+        "phoneme": "/d\u0292/"
+      }
+    ]
+  },
+  {
+    "id": "K",
+    "upper": "K",
+    "lower": "k",
+    "name": "kay",
+    "phonemes": [
+      "/k/"
+    ],
+    "primarySound": "/k/",
+    "exampleWords": [
+      {
+        "word": "kite",
+        "position": "initial",
+        "phoneme": "/k/"
+      },
+      {
+        "word": "book",
+        "position": "final",
+        "phoneme": "/k/"
+      }
+    ]
+  },
+  {
+    "id": "L",
+    "upper": "L",
+    "lower": "l",
+    "name": "ell",
+    "phonemes": [
+      "/l/"
+    ],
+    "primarySound": "/l/",
+    "exampleWords": [
+      {
+        "word": "lion",
+        "position": "initial",
+        "phoneme": "/l/"
+      },
+      {
+        "word": "ball",
+        "position": "final",
+        "phoneme": "/l/"
+      }
+    ]
+  },
+  {
+    "id": "M",
+    "upper": "M",
+    "lower": "m",
+    "name": "em",
+    "phonemes": [
+      "/m/"
+    ],
+    "primarySound": "/m/",
+    "exampleWords": [
+      {
+        "word": "monkey",
+        "position": "initial",
+        "phoneme": "/m/"
+      },
+      {
+        "word": "drum",
+        "position": "final",
+        "phoneme": "/m/"
+      }
+    ]
+  },
+  {
+    "id": "N",
+    "upper": "N",
+    "lower": "n",
+    "name": "en",
+    "phonemes": [
+      "/n/"
+    ],
+    "primarySound": "/n/",
+    "exampleWords": [
+      {
+        "word": "nest",
+        "position": "initial",
+        "phoneme": "/n/"
+      },
+      {
+        "word": "sun",
+        "position": "final",
+        "phoneme": "/n/"
+      }
+    ]
+  },
+  {
+    "id": "O",
+    "upper": "O",
+    "lower": "o",
+    "name": "oh",
+    "phonemes": [
+      "/\u0252/",
+      "/\u0259\u028a/"
+    ],
+    "primarySound": "/\u0252/",
+    "exampleWords": [
+      {
+        "word": "octopus",
+        "position": "initial",
+        "phoneme": "/\u0252/"
+      },
+      {
+        "word": "boat",
+        "position": "medial",
+        "phoneme": "/\u0259\u028a/"
+      }
+    ]
+  },
+  {
+    "id": "P",
+    "upper": "P",
+    "lower": "p",
+    "name": "pee",
+    "phonemes": [
+      "/p/"
+    ],
+    "primarySound": "/p/",
+    "exampleWords": [
+      {
+        "word": "pig",
+        "position": "initial",
+        "phoneme": "/p/"
+      },
+      {
+        "word": "cup",
+        "position": "final",
+        "phoneme": "/p/"
+      }
+    ]
+  },
+  {
+    "id": "Q",
+    "upper": "Q",
+    "lower": "q",
+    "name": "cue",
+    "phonemes": [
+      "/k/"
+    ],
+    "primarySound": "/k/",
+    "exampleWords": [
+      {
+        "word": "queen",
+        "position": "initial",
+        "phoneme": "/k/"
+      },
+      {
+        "word": "quiet",
+        "position": "initial",
+        "phoneme": "/k/"
+      }
+    ]
+  },
+  {
+    "id": "R",
+    "upper": "R",
+    "lower": "r",
+    "name": "ar",
+    "phonemes": [
+      "/r/"
+    ],
+    "primarySound": "/r/",
+    "exampleWords": [
+      {
+        "word": "rabbit",
+        "position": "initial",
+        "phoneme": "/r/"
+      },
+      {
+        "word": "carrot",
+        "position": "medial",
+        "phoneme": "/r/"
+      }
+    ]
+  },
+  {
+    "id": "S",
+    "upper": "S",
+    "lower": "s",
+    "name": "ess",
+    "phonemes": [
+      "/s/",
+      "/z/"
+    ],
+    "primarySound": "/s/",
+    "exampleWords": [
+      {
+        "word": "sun",
+        "position": "initial",
+        "phoneme": "/s/"
+      },
+      {
+        "word": "dogs",
+        "position": "final",
+        "phoneme": "/z/"
+      }
+    ]
+  },
+  {
+    "id": "T",
+    "upper": "T",
+    "lower": "t",
+    "name": "tee",
+    "phonemes": [
+      "/t/"
+    ],
+    "primarySound": "/t/",
+    "exampleWords": [
+      {
+        "word": "tiger",
+        "position": "initial",
+        "phoneme": "/t/"
+      },
+      {
+        "word": "cat",
+        "position": "final",
+        "phoneme": "/t/"
+      }
+    ]
+  },
+  {
+    "id": "U",
+    "upper": "U",
+    "lower": "u",
+    "name": "you",
+    "phonemes": [
+      "/\u028c/",
+      "/u\u02d0/"
+    ],
+    "primarySound": "/\u028c/",
+    "exampleWords": [
+      {
+        "word": "umbrella",
+        "position": "initial",
+        "phoneme": "/\u028c/"
+      },
+      {
+        "word": "glue",
+        "position": "final",
+        "phoneme": "/u\u02d0/"
+      }
+    ]
+  },
+  {
+    "id": "V",
+    "upper": "V",
+    "lower": "v",
+    "name": "vee",
+    "phonemes": [
+      "/v/"
+    ],
+    "primarySound": "/v/",
+    "exampleWords": [
+      {
+        "word": "van",
+        "position": "initial",
+        "phoneme": "/v/"
+      },
+      {
+        "word": "five",
+        "position": "final",
+        "phoneme": "/v/"
+      }
+    ]
+  },
+  {
+    "id": "W",
+    "upper": "W",
+    "lower": "w",
+    "name": "double-u",
+    "phonemes": [
+      "/w/"
+    ],
+    "primarySound": "/w/",
+    "exampleWords": [
+      {
+        "word": "web",
+        "position": "initial",
+        "phoneme": "/w/"
+      },
+      {
+        "word": "cow",
+        "position": "final",
+        "phoneme": "/w/"
+      }
+    ]
+  },
+  {
+    "id": "X",
+    "upper": "X",
+    "lower": "x",
+    "name": "ex",
+    "phonemes": [
+      "/ks/",
+      "/z/"
+    ],
+    "primarySound": "/ks/",
+    "exampleWords": [
+      {
+        "word": "box",
+        "position": "final",
+        "phoneme": "/ks/"
+      },
+      {
+        "word": "xylophone",
+        "position": "initial",
+        "phoneme": "/z/"
+      }
+    ]
+  },
+  {
+    "id": "Y",
+    "upper": "Y",
+    "lower": "y",
+    "name": "why",
+    "phonemes": [
+      "/j/",
+      "/a\u026a/",
+      "/i\u02d0/"
+    ],
+    "primarySound": "/j/",
+    "exampleWords": [
+      {
+        "word": "yellow",
+        "position": "initial",
+        "phoneme": "/j/"
+      },
+      {
+        "word": "fly",
+        "position": "final",
+        "phoneme": "/a\u026a/"
+      }
+    ]
+  },
+  {
+    "id": "Z",
+    "upper": "Z",
+    "lower": "z",
+    "name": "zed",
+    "phonemes": [
+      "/z/"
+    ],
+    "primarySound": "/z/",
+    "exampleWords": [
+      {
+        "word": "zebra",
+        "position": "initial",
+        "phoneme": "/z/"
+      },
+      {
+        "word": "buzz",
+        "position": "final",
+        "phoneme": "/z/"
+      }
+    ]
+  }
+]

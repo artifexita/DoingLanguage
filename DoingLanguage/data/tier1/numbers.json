@@ -1,0 +1,810 @@
+[
+  {
+    "digit": 0,
+    "word": "zero",
+    "group": "ones",
+    "syllables": 2,
+    "ordinal": "zeroth",
+    "difficulty": 1
+  },
+  {
+    "digit": 1,
+    "word": "one",
+    "group": "ones",
+    "syllables": 1,
+    "ordinal": "first",
+    "difficulty": 1
+  },
+  {
+    "digit": 2,
+    "word": "two",
+    "group": "ones",
+    "syllables": 1,
+    "ordinal": "second",
+    "difficulty": 1
+  },
+  {
+    "digit": 3,
+    "word": "three",
+    "group": "ones",
+    "syllables": 1,
+    "ordinal": "third",
+    "difficulty": 1
+  },
+  {
+    "digit": 4,
+    "word": "four",
+    "group": "ones",
+    "syllables": 1,
+    "ordinal": "fourth",
+    "difficulty": 1
+  },
+  {
+    "digit": 5,
+    "word": "five",
+    "group": "ones",
+    "syllables": 1,
+    "ordinal": "fifth",
+    "difficulty": 1
+  },
+  {
+    "digit": 6,
+    "word": "six",
+    "group": "ones",
+    "syllables": 1,
+    "ordinal": "sixth",
+    "difficulty": 1
+  },
+  {
+    "digit": 7,
+    "word": "seven",
+    "group": "ones",
+    "syllables": 2,
+    "ordinal": "seventh",
+    "difficulty": 1
+  },
+  {
+    "digit": 8,
+    "word": "eight",
+    "group": "ones",
+    "syllables": 1,
+    "ordinal": "eighth",
+    "difficulty": 1
+  },
+  {
+    "digit": 9,
+    "word": "nine",
+    "group": "ones",
+    "syllables": 1,
+    "ordinal": "ninth",
+    "difficulty": 1
+  },
+  {
+    "digit": 10,
+    "word": "ten",
+    "group": "teens",
+    "syllables": 1,
+    "ordinal": "tenth",
+    "difficulty": 2
+  },
+  {
+    "digit": 11,
+    "word": "eleven",
+    "group": "teens",
+    "syllables": 3,
+    "ordinal": "eleventh",
+    "difficulty": 2
+  },
+  {
+    "digit": 12,
+    "word": "twelve",
+    "group": "teens",
+    "syllables": 1,
+    "ordinal": "twelfth",
+    "difficulty": 2
+  },
+  {
+    "digit": 13,
+    "word": "thirteen",
+    "group": "teens",
+    "syllables": 2,
+    "ordinal": "thirteenth",
+    "difficulty": 2
+  },
+  {
+    "digit": 14,
+    "word": "fourteen",
+    "group": "teens",
+    "syllables": 2,
+    "ordinal": "fourteenth",
+    "difficulty": 2
+  },
+  {
+    "digit": 15,
+    "word": "fifteen",
+    "group": "teens",
+    "syllables": 2,
+    "ordinal": "fifteenth",
+    "difficulty": 2
+  },
+  {
+    "digit": 16,
+    "word": "sixteen",
+    "group": "teens",
+    "syllables": 2,
+    "ordinal": "sixteenth",
+    "difficulty": 2
+  },
+  {
+    "digit": 17,
+    "word": "seventeen",
+    "group": "teens",
+    "syllables": 3,
+    "ordinal": "seventeenth",
+    "difficulty": 2
+  },
+  {
+    "digit": 18,
+    "word": "eighteen",
+    "group": "teens",
+    "syllables": 2,
+    "ordinal": "eighteenth",
+    "difficulty": 2
+  },
+  {
+    "digit": 19,
+    "word": "nineteen",
+    "group": "teens",
+    "syllables": 2,
+    "ordinal": "nineteenth",
+    "difficulty": 2
+  },
+  {
+    "digit": 20,
+    "word": "twenty",
+    "group": "tens",
+    "syllables": 2,
+    "ordinal": "twentieth",
+    "difficulty": 2
+  },
+  {
+    "digit": 21,
+    "word": "twenty one",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "twenty first",
+    "difficulty": 3
+  },
+  {
+    "digit": 22,
+    "word": "twenty two",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "twenty second",
+    "difficulty": 3
+  },
+  {
+    "digit": 23,
+    "word": "twenty three",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "twenty third",
+    "difficulty": 3
+  },
+  {
+    "digit": 24,
+    "word": "twenty four",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "twenty fourth",
+    "difficulty": 3
+  },
+  {
+    "digit": 25,
+    "word": "twenty five",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "twenty fifth",
+    "difficulty": 3
+  },
+  {
+    "digit": 26,
+    "word": "twenty six",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "twenty sixth",
+    "difficulty": 3
+  },
+  {
+    "digit": 27,
+    "word": "twenty seven",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "twenty seventh",
+    "difficulty": 3
+  },
+  {
+    "digit": 28,
+    "word": "twenty eight",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "twenty eighth",
+    "difficulty": 3
+  },
+  {
+    "digit": 29,
+    "word": "twenty nine",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "twenty ninth",
+    "difficulty": 3
+  },
+  {
+    "digit": 30,
+    "word": "thirty",
+    "group": "tens",
+    "syllables": 2,
+    "ordinal": "thirtieth",
+    "difficulty": 2
+  },
+  {
+    "digit": 31,
+    "word": "thirty one",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "thirty first",
+    "difficulty": 3
+  },
+  {
+    "digit": 32,
+    "word": "thirty two",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "thirty second",
+    "difficulty": 3
+  },
+  {
+    "digit": 33,
+    "word": "thirty three",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "thirty third",
+    "difficulty": 3
+  },
+  {
+    "digit": 34,
+    "word": "thirty four",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "thirty fourth",
+    "difficulty": 3
+  },
+  {
+    "digit": 35,
+    "word": "thirty five",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "thirty fifth",
+    "difficulty": 3
+  },
+  {
+    "digit": 36,
+    "word": "thirty six",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "thirty sixth",
+    "difficulty": 3
+  },
+  {
+    "digit": 37,
+    "word": "thirty seven",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "thirty seventh",
+    "difficulty": 3
+  },
+  {
+    "digit": 38,
+    "word": "thirty eight",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "thirty eighth",
+    "difficulty": 3
+  },
+  {
+    "digit": 39,
+    "word": "thirty nine",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "thirty ninth",
+    "difficulty": 3
+  },
+  {
+    "digit": 40,
+    "word": "forty",
+    "group": "tens",
+    "syllables": 2,
+    "ordinal": "fortieth",
+    "difficulty": 2
+  },
+  {
+    "digit": 41,
+    "word": "forty one",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "forty first",
+    "difficulty": 3
+  },
+  {
+    "digit": 42,
+    "word": "forty two",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "forty second",
+    "difficulty": 3
+  },
+  {
+    "digit": 43,
+    "word": "forty three",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "forty third",
+    "difficulty": 3
+  },
+  {
+    "digit": 44,
+    "word": "forty four",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "forty fourth",
+    "difficulty": 3
+  },
+  {
+    "digit": 45,
+    "word": "forty five",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "forty fifth",
+    "difficulty": 3
+  },
+  {
+    "digit": 46,
+    "word": "forty six",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "forty sixth",
+    "difficulty": 3
+  },
+  {
+    "digit": 47,
+    "word": "forty seven",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "forty seventh",
+    "difficulty": 3
+  },
+  {
+    "digit": 48,
+    "word": "forty eight",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "forty eighth",
+    "difficulty": 3
+  },
+  {
+    "digit": 49,
+    "word": "forty nine",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "forty ninth",
+    "difficulty": 3
+  },
+  {
+    "digit": 50,
+    "word": "fifty",
+    "group": "tens",
+    "syllables": 2,
+    "ordinal": "fiftieth",
+    "difficulty": 2
+  },
+  {
+    "digit": 51,
+    "word": "fifty one",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "fifty first",
+    "difficulty": 3
+  },
+  {
+    "digit": 52,
+    "word": "fifty two",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "fifty second",
+    "difficulty": 3
+  },
+  {
+    "digit": 53,
+    "word": "fifty three",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "fifty third",
+    "difficulty": 3
+  },
+  {
+    "digit": 54,
+    "word": "fifty four",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "fifty fourth",
+    "difficulty": 3
+  },
+  {
+    "digit": 55,
+    "word": "fifty five",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "fifty fifth",
+    "difficulty": 3
+  },
+  {
+    "digit": 56,
+    "word": "fifty six",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "fifty sixth",
+    "difficulty": 3
+  },
+  {
+    "digit": 57,
+    "word": "fifty seven",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "fifty seventh",
+    "difficulty": 3
+  },
+  {
+    "digit": 58,
+    "word": "fifty eight",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "fifty eighth",
+    "difficulty": 3
+  },
+  {
+    "digit": 59,
+    "word": "fifty nine",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "fifty ninth",
+    "difficulty": 3
+  },
+  {
+    "digit": 60,
+    "word": "sixty",
+    "group": "tens",
+    "syllables": 2,
+    "ordinal": "sixtieth",
+    "difficulty": 2
+  },
+  {
+    "digit": 61,
+    "word": "sixty one",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "sixty first",
+    "difficulty": 3
+  },
+  {
+    "digit": 62,
+    "word": "sixty two",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "sixty second",
+    "difficulty": 3
+  },
+  {
+    "digit": 63,
+    "word": "sixty three",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "sixty third",
+    "difficulty": 3
+  },
+  {
+    "digit": 64,
+    "word": "sixty four",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "sixty fourth",
+    "difficulty": 3
+  },
+  {
+    "digit": 65,
+    "word": "sixty five",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "sixty fifth",
+    "difficulty": 3
+  },
+  {
+    "digit": 66,
+    "word": "sixty six",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "sixty sixth",
+    "difficulty": 3
+  },
+  {
+    "digit": 67,
+    "word": "sixty seven",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "sixty seventh",
+    "difficulty": 3
+  },
+  {
+    "digit": 68,
+    "word": "sixty eight",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "sixty eighth",
+    "difficulty": 3
+  },
+  {
+    "digit": 69,
+    "word": "sixty nine",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "sixty ninth",
+    "difficulty": 3
+  },
+  {
+    "digit": 70,
+    "word": "seventy",
+    "group": "tens",
+    "syllables": 3,
+    "ordinal": "seventieth",
+    "difficulty": 2
+  },
+  {
+    "digit": 71,
+    "word": "seventy one",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "seventy first",
+    "difficulty": 3
+  },
+  {
+    "digit": 72,
+    "word": "seventy two",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "seventy second",
+    "difficulty": 3
+  },
+  {
+    "digit": 73,
+    "word": "seventy three",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "seventy third",
+    "difficulty": 3
+  },
+  {
+    "digit": 74,
+    "word": "seventy four",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "seventy fourth",
+    "difficulty": 3
+  },
+  {
+    "digit": 75,
+    "word": "seventy five",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "seventy fifth",
+    "difficulty": 3
+  },
+  {
+    "digit": 76,
+    "word": "seventy six",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "seventy sixth",
+    "difficulty": 3
+  },
+  {
+    "digit": 77,
+    "word": "seventy seven",
+    "group": "compound",
+    "syllables": 5,
+    "ordinal": "seventy seventh",
+    "difficulty": 3
+  },
+  {
+    "digit": 78,
+    "word": "seventy eight",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "seventy eighth",
+    "difficulty": 3
+  },
+  {
+    "digit": 79,
+    "word": "seventy nine",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "seventy ninth",
+    "difficulty": 3
+  },
+  {
+    "digit": 80,
+    "word": "eighty",
+    "group": "tens",
+    "syllables": 2,
+    "ordinal": "eightieth",
+    "difficulty": 2
+  },
+  {
+    "digit": 81,
+    "word": "eighty one",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "eighty first",
+    "difficulty": 3
+  },
+  {
+    "digit": 82,
+    "word": "eighty two",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "eighty second",
+    "difficulty": 3
+  },
+  {
+    "digit": 83,
+    "word": "eighty three",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "eighty third",
+    "difficulty": 3
+  },
+  {
+    "digit": 84,
+    "word": "eighty four",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "eighty fourth",
+    "difficulty": 3
+  },
+  {
+    "digit": 85,
+    "word": "eighty five",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "eighty fifth",
+    "difficulty": 3
+  },
+  {
+    "digit": 86,
+    "word": "eighty six",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "eighty sixth",
+    "difficulty": 3
+  },
+  {
+    "digit": 87,
+    "word": "eighty seven",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "eighty seventh",
+    "difficulty": 3
+  },
+  {
+    "digit": 88,
+    "word": "eighty eight",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "eighty eighth",
+    "difficulty": 3
+  },
+  {
+    "digit": 89,
+    "word": "eighty nine",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "eighty ninth",
+    "difficulty": 3
+  },
+  {
+    "digit": 90,
+    "word": "ninety",
+    "group": "tens",
+    "syllables": 2,
+    "ordinal": "ninetieth",
+    "difficulty": 2
+  },
+  {
+    "digit": 91,
+    "word": "ninety one",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "ninety first",
+    "difficulty": 3
+  },
+  {
+    "digit": 92,
+    "word": "ninety two",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "ninety second",
+    "difficulty": 3
+  },
+  {
+    "digit": 93,
+    "word": "ninety three",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "ninety third",
+    "difficulty": 3
+  },
+  {
+    "digit": 94,
+    "word": "ninety four",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "ninety fourth",
+    "difficulty": 3
+  },
+  {
+    "digit": 95,
+    "word": "ninety five",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "ninety fifth",
+    "difficulty": 3
+  },
+  {
+    "digit": 96,
+    "word": "ninety six",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "ninety sixth",
+    "difficulty": 3
+  },
+  {
+    "digit": 97,
+    "word": "ninety seven",
+    "group": "compound",
+    "syllables": 4,
+    "ordinal": "ninety seventh",
+    "difficulty": 3
+  },
+  {
+    "digit": 98,
+    "word": "ninety eight",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "ninety eighth",
+    "difficulty": 3
+  },
+  {
+    "digit": 99,
+    "word": "ninety nine",
+    "group": "compound",
+    "syllables": 3,
+    "ordinal": "ninety ninth",
+    "difficulty": 3
+  },
+  {
+    "digit": 100,
+    "word": "one hundred",
+    "group": "hundred",
+    "syllables": 3,
+    "ordinal": "one hundredth",
+    "difficulty": 2
+  }
+]
