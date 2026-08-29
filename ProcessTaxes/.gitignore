@@ -1,6 +1,0 @@
-.env
-migration_progress.json
-migration_errors.log
-__pycache__/
-*.pyc
-.venv/
