@@ -5,3 +5,5 @@ While clinical therapy is essential, motor recovery and neuroplasticity require 
 Equipped with interactive speech recognition, natural voice synthesis, and adaptive multi-modal cueing, the app provides real-time, supportive feedback. Its patience-first interface removes timers, penalties, and pressure, featuring large touch targets and seamless offline capability so practice can happen anywhere.
 
 Whether used as a supplementary home tool alongside speech-language pathology or for self-directed rehabilitation, DoingLanguage empowers users to practice at their own pace, rebuild language pathways, and reclaim their voice.
+
+[DoingLanguage](https://artifexita.github.io/DoingLanguage/DoingLanguage)
