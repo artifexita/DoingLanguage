@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DoingLanguage Ecosystem Diagram</title>
+  <style>
+    @page {
+      size: A4 landscape;
+      margin: 15mm;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #ffffff;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .ecosystem-container {
+      width: 100%;
+      max-width: 900px;
+      border: 2px solid #334155;
+      border-radius: 12px;
+      padding: 30px;
+      background: #f8fafc;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+      position: relative;
+    }
+    .title {
+      font-size: 20pt;
+      font-weight: 800;
+      text-align: center;
+      color: #0f172a;
+      margin-bottom: 40px;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+    .flex-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+      position: relative;
+      z-index: 2;
+    }
+    .card {
+      width: 280px;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+    }
+    .card-title {
+      font-size: 13pt;
+      font-weight: 700;
+      margin-bottom: 12px;
+      border-bottom: 2px solid;
+      padding-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .patient-card {
+      background: #eff6ff;
+      border: 2px solid #3b82f6;
+    }
+    .patient-card .card-title {
+      color: #1d4ed8;
+      border-color: #93c5fd;
+    }
+    .slp-card {
+      background: #f0fdf4;
+      border: 2px solid #22c55e;
+    }
+    .slp-card .card-title {
+      color: #15803d;
+      border-color: #86efac;
+    }
+    .agent-card {
+      background: #fef3c7;
+      border: 2px solid #d97706;
+      width: 360px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .agent-card .card-title {
+      color: #b45309;
+      border-color: #fde047;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+    .agent-card ul {
+      display: inline-block;
+    }
+    li {
+      font-size: 10.5pt;
+      margin-bottom: 8px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    li::before {
+      content: "•";
+      font-size: 14pt;
+      line-height: 1;
+    }
+    .patient-card li::before { color: #3b82f6; }
+    .slp-card li::before { color: #22c55e; }
+    .agent-card li::before { color: #d97706; }
+
+    /* SVG connections overlay */
+    .connections-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="ecosystem-container">
+    <div class="title">DoingLanguage Ecosystem</div>
+    
+    <!-- Row with Patient PWA and SLP Co-Pilot -->
+    <div class="flex-row">
+      <div class="card patient-card">
+        <div class="card-title">Patient PWA</div>
+        <ul>
+          <li>10-Tier Curriculum</li>
+          <li>Multi-modal Input</li>
+          <li>Patience-First UX</li>
+        </ul>
+      </div>
+
+      <div class="card slp-card">
+        <div class="card-title">SLP Co-Pilot</div>
+        <ul>
+          <li>Remote Oversight</li>
+          <li>Dynamic Curricula</li>
+          <li>NDIS Metric Export</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Agent Engine Box -->
+    <div class="card agent-card">
+      <div class="card-title">Autonomous Agent Engine</div>
+      <ul>
+        <li>Acoustic / Phonetic Evaluator</li>
+        <li>Dynamic PML Cueing Fader</li>
+        <li>Cognitive Fatigue Detector</li>
+      </ul>
+    </div>
+
+    <!-- Vector Connections Overlay -->
+    <svg class="connections-svg" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- Arrow markers -->
+        <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3b82f6"/>
+        </marker>
+        <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#22c55e"/>
+        </marker>
+        <marker id="arrow-gray" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#64748b"/>
+        </marker>
+      </defs>
+
+      <!-- Synergy bidirectional arrow between Patient and SLP -->
+      <line x1="330" y1="170" x2="570" y2="170" stroke="#64748b" stroke-width="2" stroke-dasharray="4 4" marker-start="url(#arrow-gray)" marker-end="url(#arrow-gray)"/>
+      <text x="450" y="160" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#475569">Synergy</text>
+
+      <!-- Connection from Patient down to Agent -->
+      <path d="M 190 232 L 190 320 L 330 320" fill="none" stroke="#3b82f6" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+
+      <!-- Connection from SLP down to Agent -->
+      <path d="M 710 232 L 710 320 L 570 320" fill="none" stroke="#22c55e" stroke-width="2.5" marker-end="url(#arrow-green)"/>
+    </svg>
+  </div>
+
+</body>
+</html>
