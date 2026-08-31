@@ -61,16 +61,29 @@
     <div class="app__overlay" id="app-overlay" aria-hidden="true"></div>
   </div>
 
-  <!-- App script (ES module) -->
-  <script type="module" src="js/app.js"></script>
+  <!-- Auto-clear old Service Worker caches to force immediate update -->
+  <script>
+    if ('caches' in window) {
+      caches.keys().then(keys => {
+        keys.forEach(k => {
+          if (k !== 'doing-language-v6') caches.delete(k);
+        });
+      });
+    }
+  </script>
+
+  <!-- App script (ES module) with cache buster -->
+  <script type="module" src="js/app.js?t=20260831_1440"></script>
 
   <!-- Register service worker for PWA -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('sw.js')
-          .then(reg => console.log('SW registered:', reg.scope))
-          .catch(err => console.log('SW registration failed:', err));
+        navigator.serviceWorker.register('sw.js?t=20260831_1440')
+          .then(reg => {
+            reg.update();
+          })
+          .catch(err => console.log('SW error:', err));
       });
     }
   </script>

@@ -375,16 +375,28 @@
   margin-top: var(--dl-space-1);
 }
 
-.settings-field select,
-.settings-field input[type="range"] {
-  min-width: 10rem;
+.settings-field select {
+  min-width: 12rem;
   padding: var(--dl-space-2) var(--dl-space-3);
   border: 2px solid var(--dl-color-border);
   border-radius: var(--dl-radius-sm);
   background: var(--dl-color-surface);
+  color: var(--dl-color-text);
   font-size: var(--dl-font-size-sm);
   min-height: var(--dl-touch-target-min);
+  cursor: pointer;
 }
+
+.settings-field input[type="range"] {
+  min-width: 14rem;
+  height: 1.75rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  accent-color: var(--dl-color-primary);
+  cursor: pointer;
+}
+
 .settings-field select:focus,
 .settings-field input[type="range"]:focus {
   border-color: var(--dl-color-primary);
@@ -482,3 +494,196 @@
     to   { opacity: 1; }
   }
 }
+
+/* ---- Calibration Wizard Styles ---- */
+.cal-sampling-box {
+  background: var(--dl-color-surface-hover);
+  border: 2px dashed var(--dl-color-primary);
+  border-radius: var(--dl-radius-lg);
+  padding: var(--dl-space-5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--dl-space-4);
+  text-align: center;
+  position: relative;
+}
+
+.cal-waveform-container {
+  width: 100%;
+  max-width: 28rem;
+  height: 4.5rem;
+  background: var(--dl-color-surface);
+  border: 1px solid var(--dl-color-border);
+  border-radius: var(--dl-radius-md);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal-waveform-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cal-vu-meter {
+  width: 100%;
+  max-width: 28rem;
+  height: 0.5rem;
+  background: var(--dl-color-surface-active);
+  border-radius: var(--dl-radius-pill);
+  overflow: hidden;
+}
+
+.cal-vu-level {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--dl-color-success) 0%, var(--dl-color-primary) 70%, var(--dl-color-accent) 100%);
+  border-radius: var(--dl-radius-pill);
+  transition: width 60ms linear;
+}
+
+.cal-metric-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--dl-space-2);
+  justify-content: center;
+}
+
+.cal-metric-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--dl-space-1);
+  padding: var(--dl-space-1) var(--dl-space-3);
+  background: var(--dl-color-surface);
+  border: 1px solid var(--dl-color-border);
+  border-radius: var(--dl-radius-pill);
+  font-size: var(--dl-font-size-xs);
+  color: var(--dl-color-text-muted);
+}
+
+.cal-metric-tag strong {
+  color: var(--dl-color-primary);
+}
+
+.cal-variation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: var(--dl-space-4);
+  margin-bottom: var(--dl-space-5);
+}
+
+.cal-variation-card {
+  background: var(--dl-color-surface);
+  border: 2px solid var(--dl-color-border);
+  border-radius: var(--dl-radius-lg);
+  padding: var(--dl-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-space-2);
+  cursor: pointer;
+  transition: all var(--dl-transition);
+  position: relative;
+  text-align: left;
+}
+
+.cal-variation-card:hover {
+  border-color: var(--dl-color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--dl-shadow-md);
+}
+
+.cal-variation-card--selected {
+  border-color: var(--dl-color-primary) !important;
+  background: var(--dl-color-primary-light) !important;
+  box-shadow: 0 0 0 2px var(--dl-color-primary-light), var(--dl-shadow-sm);
+}
+
+.cal-variation-card--active {
+  border-color: var(--dl-color-accent) !important;
+  animation: pulse-border 1s infinite alternate;
+}
+
+@keyframes pulse-border {
+  from { box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.3); }
+  to   { box-shadow: 0 0 0 6px rgba(217, 119, 6, 0.6); }
+}
+
+.cal-variation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cal-variation-badge {
+  font-size: var(--dl-font-size-xs);
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--dl-radius-pill);
+  background: var(--dl-color-surface-active);
+  color: var(--dl-color-text);
+}
+
+.cal-variation-card--selected .cal-variation-badge {
+  background: var(--dl-color-primary);
+  color: var(--dl-color-text-inverse);
+}
+
+.cal-variation-val {
+  font-size: var(--dl-font-size-xl);
+  font-weight: 700;
+  color: var(--dl-color-primary);
+  line-height: 1.2;
+}
+
+.cal-variation-desc {
+  font-size: var(--dl-font-size-xs);
+  color: var(--dl-color-text-muted);
+  line-height: var(--dl-line-height);
+}
+
+.cal-ma-tracker {
+  background: var(--dl-color-surface);
+  border: 1px solid var(--dl-color-border);
+  border-radius: var(--dl-radius-md);
+  padding: var(--dl-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-space-3);
+}
+
+.cal-ma-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cal-ma-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--dl-space-2);
+  align-items: center;
+}
+
+.cal-ma-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--dl-radius-pill);
+  font-size: var(--dl-font-size-xs);
+  background: var(--dl-color-surface-active);
+  color: var(--dl-color-text);
+  border: 1px solid var(--dl-color-border);
+}
+
+.cal-ma-chip--converged {
+  background: var(--dl-color-success-light);
+  color: #065F46;
+  border-color: var(--dl-color-success);
+  font-weight: 600;
+}
+

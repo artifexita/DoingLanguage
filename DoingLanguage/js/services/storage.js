@@ -15,7 +15,7 @@ const STORES = {
 class StorageService {
   constructor() {
     this._db = null;
-    this._isSupported = 'indexedDB' in window;
+    this._isSupported = typeof window !== 'undefined' && 'indexedDB' in window;
   }
 
   /** Open the database and create stores if needed. */
